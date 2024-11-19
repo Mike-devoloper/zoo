@@ -11,4 +11,8 @@ export class DogService {
     public introduce():string {
         return "My name is Rex"
     }
+
+    public modifyName():string {
+        return "Modified"
+    }
 }
